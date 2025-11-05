@@ -126,6 +126,22 @@ section h3 {
   word-break: break-word;
 }
 
+/* Delete button next to each participant */
+.participant-delete {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
 .participant-item.empty {
   color: #777;
   font-style: italic;
